@@ -8,9 +8,9 @@ import { User } from "firebase/auth";
 export default function Home() {
   const [user, setUser] = useState<User | null>(null);
   const [year, setYear] = useState<number>(new Date().getFullYear());
-  const [grade, setGrade] = useState<number>(1);
-  const [semester, setSemester] = useState<number>(1);
-  const [examType, setExamType] = useState<number>(1);
+  const [grade, setGrade] = useState<number>(2);
+  const [semester, setSemester] = useState<number>(2);
+  const [examType, setExamType] = useState<number>(2);
   const [subjects, setSubjects] = useState<
     {
       name: string;
